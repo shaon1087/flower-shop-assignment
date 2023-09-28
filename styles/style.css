@@ -158,7 +158,7 @@ body{
    padding: 86px 175px 86px 175px;
  }
  .supp-part img{
-   padding-left: 80px;
+   padding-left: 160px;
    
 
  }
@@ -190,6 +190,9 @@ body{
    text-align: center;
    width: 50%;
 }
+.offer-text span{
+   color: #E55473;
+}
 .offer-text h3{
    padding-top: 230px;
    color: #272727;
@@ -209,6 +212,114 @@ body{
    padding: 120px 50px;
 }
 /* offer part end here */
+
+/* inta part add here */
+
+
+.insta-text{
+   text-align: center;
+}
+.insta-text h3{
+   color: #272727;
+   text-align: center;
+   font-family: Lato;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+.insta-text p{
+   color: rgba(39, 39, 39, 0.60);
+   text-align: center;
+   font-family: Lato;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   padding: 20px 400px 40px 400px;
+}
+.ins-img img{
+   padding: 0 6px;
+   margin-bottom: 120px;
+}
+.deal-part{
+   background-image: url('../Flower Asset/Rectangle\ 9.png');
+   text-align: center;
+   height: 450px;
+   
+}
+.deal-text{
+   padding: 45px 0 48px 0;
+
+}
+.deal-text h3{
+   color: #272727;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 800;
+}
+.deal-text p{
+   color: rgba(39, 39, 39, 0.60);
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+}
+.deal-input{
+   display: inline;
+   padding-bottom: 120px;
+}
+.deal-input input{
+   padding-left: 22px;
+   width: 650px;
+   height: 55px;
+   flex-shrink: 0;
+   border-radius: 7px;
+   background: #FFF
+}
+
+/* inta part end here */
+
+/* footer part start here */
+footer{
+   background: #111010;
+   height: 449px;
+   margin-top: 125px;
+}
+.footer-text{
+   text-align: center;
+   padding: 125px 650px 0 650px;
+}
+.footer-text h3{
+   color: #E55473;
+   font-family: Lato;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+.footer-text span{
+   color: #FFF;
+   font-family: Lato;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+.foot-para{
+   color: rgba(255, 255, 255, 0.90);
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   padding-top: 24px;
+   padding-bottom: 30px;
+}
+.copyright{
+   color: rgba(255, 255, 255, 0.40);
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+}
+
+/* footer part end here */
 
 
 
