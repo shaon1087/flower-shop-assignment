@@ -3,7 +3,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
  .primary-button {
-    "width: 100%;
+     width: 100%;
      height: 100%; 
      padding-left: 43px; 
      padding-right: 43px; 
@@ -11,20 +11,16 @@ body{
      padding-bottom: 20px;
      background: #E55473;
      border-radius: 8px; 
-     justify-content: flex-start;
-     align-items: flex-start;
-     gap: 10px; 
-     display: inline-flex;
+     display: inline;
+
+     
      
   }
   .primary-button a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    font-family: Lato;
     font-weight: 700;
-    word-wrap: break-word
-
   }
 
  .container{
@@ -89,26 +85,95 @@ body{
  .feat-image{
    display: flex;
    justify-content: space-between;
+   padding-bottom: 150px;
  }
- .feat-part1{
+ .featimg-container1{
    border-radius: 300px 300px 0px 0px;
    background: rgba(167, 33, 98, 0.15);
+   height: 520px;
+   width: 450px;
  }
- .feat-part1 img{
-   padding:67px 75px 0 76px;
+ .feat-part1{
+   padding:90px 75px 0 76px;
  }
- .featimg-container p{
-   text-align: center;
+
+ .featimg-container1 p{
    color: #272727;
    text-align: center;
-   font-family: Lato;
    font-size: 24px;
    font-style: normal;
    font-weight: 700;
-   line-height: 35px; /* 145.833% */
    text-decoration-line: underline;
+   padding-bottom: 128px;
+ }
+ .featimg-container2{
+   border-radius: 300px 300px 0px 0px;
+   background: rgba(71, 125, 17, 0.15);
+   height: 520px;
+   width: 450px;
+ }
+ .feat-part2{
+   padding:48px 75px 0 76px;
+ }
+
+ .featimg-container2 p{
+   color: #272727;
+   text-align: center;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   text-decoration-line: underline;
+   padding-bottom: 128px;
+ }
+ .featimg-container3{
+   border-radius: 300px 300px 0px 0px;
+   background: rgba(5, 151, 160, 0.15);
+   height: 520px;
+   width: 450px;
+ }
+ .feat-part3{
+   padding:115px 47px 51px 45px;
+ }
+
+ .featimg-container3 p{
+   color: #272727;
+   text-align: center;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   text-decoration-line: underline;
+   padding-bottom: 128px;
  }
  /* feature part end here */
+
+/* support part start from here */
+ #support{
+   border-radius: 8px;
+   background: rgba(39, 39, 39, 0.05);
+ }
+ .supp-con{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 86px 175px 86px 175px;
+ }
+ .supp-part img{
+   padding-left: 80px;
+   
+
+ }
+ .supp-part p{
+   color: rgba(39, 39, 39, 0.80);
+   text-align: center;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+ }
+ .para{
+   padding-left: 110px;
+ }
+
+/* support part end here */
  
 
 
