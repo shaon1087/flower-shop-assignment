@@ -1,8 +1,4 @@
 /* common styles */
-.{
-   margin: 0;
-   padding: 0;
-}
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -36,9 +32,9 @@ body{
     margin: auto;
  }
  /* header part start from here */
- .head{
-   padding-bottom: 178px;
- }
+#head {
+   background: rgba(229, 84, 115, 0.10);
+}
  .head-title{
     color: #272727;
     font-size: 80px;
@@ -70,26 +66,48 @@ body{
  }
  /* header part end here */
 
- /* feature part start from here */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+  /* feature part start from here */
+.feat-head{
+   padding-top: 180px;
+   
+}
+.feat-head h3{
+   color: #272727;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 800;
+   text-align: center;
+}
+.feat-head p{
+   color: rgba(39, 39, 39, 0.60);
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   text-align: center;
+   padding: 0 663PX 0 663px;
+}
+ .feat-image{
+   display: flex;
+   justify-content: space-between;
+ }
+ .feat-part1{
+   border-radius: 300px 300px 0px 0px;
+   background: rgba(167, 33, 98, 0.15);
+ }
+ .feat-part1 img{
+   padding:67px 75px 0 76px;
+ }
+ .featimg-container p{
+   text-align: center;
+   color: #272727;
+   text-align: center;
+   font-family: Lato;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 35px; /* 145.833% */
+   text-decoration-line: underline;
+ }
  /* feature part end here */
  
 
@@ -104,7 +122,3 @@ body{
 
 
 
-/* header styles start from here */
-#head {
-    background: rgba(229, 84, 115, 0.10);
-}
