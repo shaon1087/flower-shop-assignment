@@ -1,3 +1,20 @@
-h1{
-    color: red;
+/* common styles */
+ .container{
+    max-width: 1440px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* header styles start from here */
+#header {
+    background-color: rgba(229, 84, 115, 0.10);
 }
